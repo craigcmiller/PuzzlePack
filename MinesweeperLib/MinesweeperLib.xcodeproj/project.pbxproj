@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		440AB6C71B3DB601004A4791 /* libMinesweeperLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 440AB6BB1B3DB600004A4791 /* libMinesweeperLib.a */; };
+		440AB6EF1B3DB640004A4791 /* MSBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 440AB6DF1B3DB640004A4791 /* MSBoard.m */; };
+		440AB6F01B3DB640004A4791 /* MSCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 440AB6E11B3DB640004A4791 /* MSCell.m */; };
+		440AB6F11B3DB640004A4791 /* MSMinesweeperSetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 440AB6E31B3DB640004A4791 /* MSMinesweeperSetupViewController.m */; };
+		440AB6F21B3DB640004A4791 /* MSMinesweeperView.m in Sources */ = {isa = PBXBuildFile; fileRef = 440AB6E61B3DB640004A4791 /* MSMinesweeperView.m */; };
+		440AB6F31B3DB640004A4791 /* MSScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 440AB6E81B3DB640004A4791 /* MSScrollView.m */; };
+		440AB6F41B3DB640004A4791 /* MSMinesweeperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 440AB6EA1B3DB640004A4791 /* MSMinesweeperViewController.m */; };
+		440AB6F51B3DB640004A4791 /* MSInformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 440AB6EC1B3DB640004A4791 /* MSInformationViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		440AB6C81B3DB601004A4791 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 440AB6B31B3DB600004A4791 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 440AB6BA1B3DB600004A4791;
+			remoteInfo = MinesweeperLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		440AB6B91B3DB600004A4791 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		440AB6BB1B3DB600004A4791 /* libMinesweeperLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMinesweeperLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		440AB6C61B3DB601004A4791 /* MinesweeperLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MinesweeperLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		440AB6CC1B3DB601004A4791 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		440AB6DE1B3DB640004A4791 /* MSBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSBoard.h; path = ../../MSBoard.h; sourceTree = "<group>"; };
+		440AB6DF1B3DB640004A4791 /* MSBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSBoard.m; path = ../../MSBoard.m; sourceTree = "<group>"; };
+		440AB6E01B3DB640004A4791 /* MSCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSCell.h; path = ../../MSCell.h; sourceTree = "<group>"; };
+		440AB6E11B3DB640004A4791 /* MSCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSCell.m; path = ../../MSCell.m; sourceTree = "<group>"; };
+		440AB6E21B3DB640004A4791 /* MSMinesweeperSetupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSMinesweeperSetupViewController.h; path = ../../Classes/MSMinesweeperSetupViewController.h; sourceTree = "<group>"; };
+		440AB6E31B3DB640004A4791 /* MSMinesweeperSetupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSMinesweeperSetupViewController.m; path = ../../Classes/MSMinesweeperSetupViewController.m; sourceTree = "<group>"; };
+		440AB6E41B3DB640004A4791 /* MinesweeperSetupView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MinesweeperSetupView.xib; path = ../../MinesweeperSetupView.xib; sourceTree = "<group>"; };
+		440AB6E51B3DB640004A4791 /* MSMinesweeperView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSMinesweeperView.h; path = ../../Classes/MSMinesweeperView.h; sourceTree = "<group>"; };
+		440AB6E61B3DB640004A4791 /* MSMinesweeperView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSMinesweeperView.m; path = ../../Classes/MSMinesweeperView.m; sourceTree = "<group>"; };
+		440AB6E71B3DB640004A4791 /* MSScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSScrollView.h; path = ../../Classes/MSScrollView.h; sourceTree = "<group>"; };
+		440AB6E81B3DB640004A4791 /* MSScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSScrollView.m; path = ../../Classes/MSScrollView.m; sourceTree = "<group>"; };
+		440AB6E91B3DB640004A4791 /* MSMinesweeperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSMinesweeperViewController.h; path = ../../Classes/MSMinesweeperViewController.h; sourceTree = "<group>"; };
+		440AB6EA1B3DB640004A4791 /* MSMinesweeperViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSMinesweeperViewController.m; path = ../../Classes/MSMinesweeperViewController.m; sourceTree = "<group>"; };
+		440AB6EB1B3DB640004A4791 /* MSInformationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSInformationViewController.h; path = ../../Classes/MSInformationViewController.h; sourceTree = "<group>"; };
+		440AB6EC1B3DB640004A4791 /* MSInformationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSInformationViewController.m; path = ../../Classes/MSInformationViewController.m; sourceTree = "<group>"; };
+		440AB6ED1B3DB640004A4791 /* MSInformationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MSInformationViewController.xib; path = ../../Classes/MSInformationViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		440AB6B81B3DB600004A4791 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		440AB6C31B3DB601004A4791 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				440AB6C71B3DB601004A4791 /* libMinesweeperLib.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		440AB6B21B3DB600004A4791 = {
+			isa = PBXGroup;
+			children = (
+				440AB6BD1B3DB600004A4791 /* MinesweeperLib */,
+				440AB6CA1B3DB601004A4791 /* MinesweeperLibTests */,
+				440AB6BC1B3DB600004A4791 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		440AB6BC1B3DB600004A4791 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				440AB6BB1B3DB600004A4791 /* libMinesweeperLib.a */,
+				440AB6C61B3DB601004A4791 /* MinesweeperLibTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		440AB6BD1B3DB600004A4791 /* MinesweeperLib */ = {
+			isa = PBXGroup;
+			children = (
+				440AB6DE1B3DB640004A4791 /* MSBoard.h */,
+				440AB6DF1B3DB640004A4791 /* MSBoard.m */,
+				440AB6E01B3DB640004A4791 /* MSCell.h */,
+				440AB6E11B3DB640004A4791 /* MSCell.m */,
+				440AB6E21B3DB640004A4791 /* MSMinesweeperSetupViewController.h */,
+				440AB6E31B3DB640004A4791 /* MSMinesweeperSetupViewController.m */,
+				440AB6E41B3DB640004A4791 /* MinesweeperSetupView.xib */,
+				440AB6E51B3DB640004A4791 /* MSMinesweeperView.h */,
+				440AB6E61B3DB640004A4791 /* MSMinesweeperView.m */,
+				440AB6E71B3DB640004A4791 /* MSScrollView.h */,
+				440AB6E81B3DB640004A4791 /* MSScrollView.m */,
+				440AB6E91B3DB640004A4791 /* MSMinesweeperViewController.h */,
+				440AB6EA1B3DB640004A4791 /* MSMinesweeperViewController.m */,
+				440AB6EB1B3DB640004A4791 /* MSInformationViewController.h */,
+				440AB6EC1B3DB640004A4791 /* MSInformationViewController.m */,
+				440AB6ED1B3DB640004A4791 /* MSInformationViewController.xib */,
+			);
+			path = MinesweeperLib;
+			sourceTree = "<group>";
+		};
+		440AB6CA1B3DB601004A4791 /* MinesweeperLibTests */ = {
+			isa = PBXGroup;
+			children = (
+				440AB6CB1B3DB601004A4791 /* Supporting Files */,
+			);
+			path = MinesweeperLibTests;
+			sourceTree = "<group>";
+		};
+		440AB6CB1B3DB601004A4791 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				440AB6CC1B3DB601004A4791 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		440AB6BA1B3DB600004A4791 /* MinesweeperLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 440AB6CF1B3DB601004A4791 /* Build configuration list for PBXNativeTarget "MinesweeperLib" */;
+			buildPhases = (
+				440AB6B71B3DB600004A4791 /* Sources */,
+				440AB6B81B3DB600004A4791 /* Frameworks */,
+				440AB6B91B3DB600004A4791 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MinesweeperLib;
+			productName = MinesweeperLib;
+			productReference = 440AB6BB1B3DB600004A4791 /* libMinesweeperLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		440AB6C51B3DB601004A4791 /* MinesweeperLibTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 440AB6D21B3DB601004A4791 /* Build configuration list for PBXNativeTarget "MinesweeperLibTests" */;
+			buildPhases = (
+				440AB6C21B3DB601004A4791 /* Sources */,
+				440AB6C31B3DB601004A4791 /* Frameworks */,
+				440AB6C41B3DB601004A4791 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				440AB6C91B3DB601004A4791 /* PBXTargetDependency */,
+			);
+			name = MinesweeperLibTests;
+			productName = MinesweeperLibTests;
+			productReference = 440AB6C61B3DB601004A4791 /* MinesweeperLibTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		440AB6B31B3DB600004A4791 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = CMSoftware;
+				TargetAttributes = {
+					440AB6BA1B3DB600004A4791 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					440AB6C51B3DB601004A4791 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 440AB6B61B3DB600004A4791 /* Build configuration list for PBXProject "MinesweeperLib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 440AB6B21B3DB600004A4791;
+			productRefGroup = 440AB6BC1B3DB600004A4791 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				440AB6BA1B3DB600004A4791 /* MinesweeperLib */,
+				440AB6C51B3DB601004A4791 /* MinesweeperLibTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		440AB6C41B3DB601004A4791 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		440AB6B71B3DB600004A4791 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				440AB6F31B3DB640004A4791 /* MSScrollView.m in Sources */,
+				440AB6F11B3DB640004A4791 /* MSMinesweeperSetupViewController.m in Sources */,
+				440AB6F21B3DB640004A4791 /* MSMinesweeperView.m in Sources */,
+				440AB6F41B3DB640004A4791 /* MSMinesweeperViewController.m in Sources */,
+				440AB6EF1B3DB640004A4791 /* MSBoard.m in Sources */,
+				440AB6F51B3DB640004A4791 /* MSInformationViewController.m in Sources */,
+				440AB6F01B3DB640004A4791 /* MSCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		440AB6C21B3DB601004A4791 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		440AB6C91B3DB601004A4791 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 440AB6BA1B3DB600004A4791 /* MinesweeperLib */;
+			targetProxy = 440AB6C81B3DB601004A4791 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		440AB6CD1B3DB601004A4791 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		440AB6CE1B3DB601004A4791 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		440AB6D01B3DB601004A4791 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		440AB6D11B3DB601004A4791 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		440AB6D31B3DB601004A4791 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MinesweeperLibTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		440AB6D41B3DB601004A4791 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MinesweeperLibTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		440AB6B61B3DB600004A4791 /* Build configuration list for PBXProject "MinesweeperLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				440AB6CD1B3DB601004A4791 /* Debug */,
+				440AB6CE1B3DB601004A4791 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		440AB6CF1B3DB601004A4791 /* Build configuration list for PBXNativeTarget "MinesweeperLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				440AB6D01B3DB601004A4791 /* Debug */,
+				440AB6D11B3DB601004A4791 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		440AB6D21B3DB601004A4791 /* Build configuration list for PBXNativeTarget "MinesweeperLibTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				440AB6D31B3DB601004A4791 /* Debug */,
+				440AB6D41B3DB601004A4791 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 440AB6B31B3DB600004A4791 /* Project object */;
+}

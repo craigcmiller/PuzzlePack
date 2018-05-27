@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* FallingBlocksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* FallingBlocksViewController.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		28AD733F0D9D9553002E5188 /* FallingBlocks.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* FallingBlocks.xib */; };
+		44030BA30DFF3B3D005099CA /* TetrisView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44030BA20DFF3B3D005099CA /* TetrisView.m */; };
+		44030C2C0DFF40D2005099CA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44030C2B0DFF40D2005099CA /* CoreGraphics.framework */; };
+		440EEEF21A06D8030059D952 /* UIScrollView+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 440EEEF11A06D8030059D952 /* UIScrollView+Helper.m */; };
+		440EEEF51A06E9170059D952 /* UIView+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 440EEEF41A06E9170059D952 /* UIView+Helper.m */; };
+		4410C1AE0E463397008608AF /* IBlock.png in Resources */ = {isa = PBXBuildFile; fileRef = 4410C1A70E463397008608AF /* IBlock.png */; };
+		4410C1AF0E463397008608AF /* LBlock.png in Resources */ = {isa = PBXBuildFile; fileRef = 4410C1A80E463397008608AF /* LBlock.png */; };
+		4410C1B00E463397008608AF /* OBlock.png in Resources */ = {isa = PBXBuildFile; fileRef = 4410C1A90E463397008608AF /* OBlock.png */; };
+		4410C1B10E463397008608AF /* ReverseLBlock.png in Resources */ = {isa = PBXBuildFile; fileRef = 4410C1AA0E463397008608AF /* ReverseLBlock.png */; };
+		4410C1B20E463397008608AF /* ReverseZBlock.png in Resources */ = {isa = PBXBuildFile; fileRef = 4410C1AB0E463397008608AF /* ReverseZBlock.png */; };
+		4410C1B30E463397008608AF /* TBlock.png in Resources */ = {isa = PBXBuildFile; fileRef = 4410C1AC0E463397008608AF /* TBlock.png */; };
+		4410C1B40E463397008608AF /* ZBlock.png in Resources */ = {isa = PBXBuildFile; fileRef = 4410C1AD0E463397008608AF /* ZBlock.png */; };
+		4443ECBE19DC91B1007F79BB /* FallingBlocksMainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4443ECBD19DC91B1007F79BB /* FallingBlocksMainMenu.xib */; };
+		4448035C19DC81310061968A /* TetrisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4448035B19DC81310061968A /* TetrisViewController.m */; };
+		445DAFA21A02EF950097F035 /* MSInformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 445DAFA01A02EF950097F035 /* MSInformationViewController.m */; };
+		445DAFA31A02EF950097F035 /* MSInformationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 445DAFA11A02EF950097F035 /* MSInformationViewController.xib */; };
+		446DBBBC0F0A71AA001DB239 /* AppTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 446DBBBB0F0A71AA001DB239 /* AppTabBarController.m */; };
+		446DBC410F0A8893001DB239 /* About.xib in Resources */ = {isa = PBXBuildFile; fileRef = 446DBC400F0A8893001DB239 /* About.xib */; };
+		446F43F60E058D2100F62638 /* TouchtrisIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 446F43F50E058D2100F62638 /* TouchtrisIcon.png */; };
+		4470E76F0F0974DB006039B7 /* TicTacToe.m in Sources */ = {isa = PBXBuildFile; fileRef = 4470E76E0F0974DB006039B7 /* TicTacToe.m */; };
+		4470E78A0F097641006039B7 /* TicTacToeMenuItem.png in Resources */ = {isa = PBXBuildFile; fileRef = 4470E7890F097641006039B7 /* TicTacToeMenuItem.png */; };
+		4470E7A10F0977A8006039B7 /* TicTacToeSetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4470E7A00F0977A8006039B7 /* TicTacToeSetupViewController.m */; };
+		4470E7A50F0977FF006039B7 /* TicTacToeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4470E7A40F0977FF006039B7 /* TicTacToeView.xib */; };
+		4470E7BB0F097A36006039B7 /* TicTacToeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4470E7BA0F097A36006039B7 /* TicTacToeView.m */; };
+		4470E9720F098D8A006039B7 /* Not.png in Resources */ = {isa = PBXBuildFile; fileRef = 4470E9700F098D8A006039B7 /* Not.png */; };
+		4470E9730F098D8A006039B7 /* Cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 4470E9710F098D8A006039B7 /* Cross.png */; };
+		447BD5130F0C39BE0017F00C /* MSCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 447BD5100F0C39BE0017F00C /* MSCell.m */; };
+		447BD5140F0C39BE0017F00C /* MSBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 447BD5110F0C39BE0017F00C /* MSBoard.m */; };
+		447BD51A0F0C3A1B0017F00C /* MinesweeperSetupView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 447BD5190F0C3A1B0017F00C /* MinesweeperSetupView.xib */; };
+		447BD5260F0C3A6B0017F00C /* MSMinesweeperSetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 447BD5250F0C3A6B0017F00C /* MSMinesweeperSetupViewController.m */; };
+		447BD53D0F0C3DF00017F00C /* MSMinesweeperView.m in Sources */ = {isa = PBXBuildFile; fileRef = 447BD53C0F0C3DF00017F00C /* MSMinesweeperView.m */; };
+		448A6ECD19D0BB3700BFBDEF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 448A6ECC19D0BB3700BFBDEF /* Default-568h@2x.png */; };
+		448A6F0619D0BBC400BFBDEF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 448A6F0519D0BBC400BFBDEF /* LaunchScreen.xib */; };
+		448A6F0A19D0C0E500BFBDEF /* MainMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 448A6F0919D0C0E500BFBDEF /* MainMenu.storyboard */; };
+		448FE0921A0AB8D000F53672 /* MSScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 448FE0911A0AB8D000F53672 /* MSScrollView.m */; };
+		448FE0941A0AB96600F53672 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 448FE0931A0AB96600F53672 /* QuartzCore.framework */; };
+		4497ECE119D0C8590044C358 /* MSMinesweeperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4497ECE019D0C8590044C358 /* MSMinesweeperViewController.m */; };
+		449D12080ECC67E4004D44A5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 449D12070ECC67E4004D44A5 /* AppDelegate.m */; };
+		449D122E0ECC697B004D44A5 /* GameSelectionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 449D122C0ECC697B004D44A5 /* GameSelectionController.m */; };
+		44A1E2B20E029C1500144505 /* AbstractBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A1E2990E029C1400144505 /* AbstractBlock.m */; };
+		44A1E2B30E029C1500144505 /* Board.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A1E29B0E029C1400144505 /* Board.m */; };
+		44A1E2B40E029C1500144505 /* BoardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A1E29D0E029C1400144505 /* BoardCell.m */; };
+		44A1E2B50E029C1500144505 /* CellCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A1E29F0E029C1500144505 /* CellCollection.m */; };
+		44A1E2B60E029C1500144505 /* CellRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A1E2A10E029C1500144505 /* CellRow.m */; };
+		44A1E2B70E029C1500144505 /* IBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A1E2A30E029C1500144505 /* IBlock.m */; };
+		44A1E2B80E029C1500144505 /* LBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A1E2A50E029C1500144505 /* LBlock.m */; };
+		44A1E2B90E029C1500144505 /* OBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A1E2A70E029C1500144505 /* OBlock.m */; };
+		44A1E2BA0E029C1500144505 /* ReverseLBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A1E2A90E029C1500144505 /* ReverseLBlock.m */; };
+		44A1E2BB0E029C1500144505 /* ReverseZBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A1E2AB0E029C1500144505 /* ReverseZBlock.m */; };
+		44A1E2BC0E029C1500144505 /* TBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A1E2AD0E029C1500144505 /* TBlock.m */; };
+		44A1E2BE0E029C1500144505 /* ZBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A1E2B10E029C1500144505 /* ZBlock.m */; };
+		44A25C900F09593900DFAC7E /* FallingBlocksMenuItem.png in Resources */ = {isa = PBXBuildFile; fileRef = 44A25C8F0F09593900DFAC7E /* FallingBlocksMenuItem.png */; };
+		44AFDAFF0F0D3B3C00E63C50 /* MinesweeperMenuItem.png in Resources */ = {isa = PBXBuildFile; fileRef = 44AFDAFE0F0D3B3C00E63C50 /* MinesweeperMenuItem.png */; };
+		44DCFBBD0F092A5000043AB8 /* GameMenuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44DCFBBC0F092A5000043AB8 /* GameMenuView.xib */; };
+		44DCFC0C0F092F9100043AB8 /* GameSelectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44DCFC0B0F092F9100043AB8 /* GameSelectionView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		440AB6DA1B3DB602004A4791 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 440AB6D51B3DB601004A4791 /* MinesweeperLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 440AB6BB1B3DB600004A4791;
+			remoteInfo = MinesweeperLib;
+		};
+		440AB6DC1B3DB602004A4791 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 440AB6D51B3DB601004A4791 /* MinesweeperLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 440AB6C61B3DB601004A4791;
+			remoteInfo = MinesweeperLibTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* FallingBlocksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FallingBlocksViewController.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* FallingBlocksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FallingBlocksViewController.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* PuzzlePack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PuzzlePack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* FallingBlocks.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FallingBlocks.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Touchtris_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Touchtris_Prefix.pch; sourceTree = "<group>"; };
+		44030BA10DFF3B3D005099CA /* TetrisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TetrisView.h; path = ../TetrisView.h; sourceTree = "<group>"; };
+		44030BA20DFF3B3D005099CA /* TetrisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TetrisView.m; path = ../TetrisView.m; sourceTree = "<group>"; };
+		44030C2B0DFF40D2005099CA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		440AB6D51B3DB601004A4791 /* MinesweeperLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MinesweeperLib.xcodeproj; path = MinesweeperLib/MinesweeperLib.xcodeproj; sourceTree = "<group>"; };
+		440EEEF01A06D8030059D952 /* UIScrollView+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+Helper.h"; sourceTree = "<group>"; };
+		440EEEF11A06D8030059D952 /* UIScrollView+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+Helper.m"; sourceTree = "<group>"; };
+		440EEEF31A06E9170059D952 /* UIView+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Helper.h"; sourceTree = "<group>"; };
+		440EEEF41A06E9170059D952 /* UIView+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Helper.m"; sourceTree = "<group>"; };
+		4410C1A70E463397008608AF /* IBlock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IBlock.png; sourceTree = "<group>"; };
+		4410C1A80E463397008608AF /* LBlock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LBlock.png; sourceTree = "<group>"; };
+		4410C1A90E463397008608AF /* OBlock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OBlock.png; sourceTree = "<group>"; };
+		4410C1AA0E463397008608AF /* ReverseLBlock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ReverseLBlock.png; sourceTree = "<group>"; };
+		4410C1AB0E463397008608AF /* ReverseZBlock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ReverseZBlock.png; sourceTree = "<group>"; };
+		4410C1AC0E463397008608AF /* TBlock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TBlock.png; sourceTree = "<group>"; };
+		4410C1AD0E463397008608AF /* ZBlock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ZBlock.png; sourceTree = "<group>"; };
+		4443ECBD19DC91B1007F79BB /* FallingBlocksMainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FallingBlocksMainMenu.xib; sourceTree = "<group>"; };
+		4448035A19DC81310061968A /* TetrisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TetrisViewController.h; sourceTree = "<group>"; };
+		4448035B19DC81310061968A /* TetrisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TetrisViewController.m; sourceTree = "<group>"; };
+		445DAF9F1A02EF950097F035 /* MSInformationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSInformationViewController.h; sourceTree = "<group>"; };
+		445DAFA01A02EF950097F035 /* MSInformationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSInformationViewController.m; sourceTree = "<group>"; };
+		445DAFA11A02EF950097F035 /* MSInformationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MSInformationViewController.xib; sourceTree = "<group>"; };
+		446DBBBA0F0A71AA001DB239 /* AppTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppTabBarController.h; sourceTree = "<group>"; };
+		446DBBBB0F0A71AA001DB239 /* AppTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppTabBarController.m; sourceTree = "<group>"; };
+		446DBC400F0A8893001DB239 /* About.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = About.xib; sourceTree = "<group>"; };
+		446F43F50E058D2100F62638 /* TouchtrisIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TouchtrisIcon.png; sourceTree = "<group>"; };
+		4470E76D0F0974DB006039B7 /* TicTacToe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TicTacToe.h; sourceTree = SOURCE_ROOT; };
+		4470E76E0F0974DB006039B7 /* TicTacToe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TicTacToe.m; sourceTree = SOURCE_ROOT; };
+		4470E7890F097641006039B7 /* TicTacToeMenuItem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TicTacToeMenuItem.png; sourceTree = "<group>"; };
+		4470E79F0F0977A8006039B7 /* TicTacToeSetupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TicTacToeSetupViewController.h; sourceTree = "<group>"; };
+		4470E7A00F0977A8006039B7 /* TicTacToeSetupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TicTacToeSetupViewController.m; sourceTree = "<group>"; };
+		4470E7A40F0977FF006039B7 /* TicTacToeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TicTacToeView.xib; sourceTree = "<group>"; };
+		4470E7B90F097A36006039B7 /* TicTacToeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TicTacToeView.h; sourceTree = "<group>"; };
+		4470E7BA0F097A36006039B7 /* TicTacToeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TicTacToeView.m; sourceTree = "<group>"; };
+		4470E9700F098D8A006039B7 /* Not.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Not.png; sourceTree = "<group>"; };
+		4470E9710F098D8A006039B7 /* Cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cross.png; sourceTree = "<group>"; };
+		447BD50F0F0C39BE0017F00C /* MSBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSBoard.h; sourceTree = SOURCE_ROOT; };
+		447BD5100F0C39BE0017F00C /* MSCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSCell.m; sourceTree = SOURCE_ROOT; };
+		447BD5110F0C39BE0017F00C /* MSBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSBoard.m; sourceTree = SOURCE_ROOT; };
+		447BD5120F0C39BE0017F00C /* MSCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSCell.h; sourceTree = SOURCE_ROOT; };
+		447BD5190F0C3A1B0017F00C /* MinesweeperSetupView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MinesweeperSetupView.xib; path = ../MinesweeperSetupView.xib; sourceTree = "<group>"; };
+		447BD5240F0C3A6B0017F00C /* MSMinesweeperSetupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSMinesweeperSetupViewController.h; sourceTree = "<group>"; };
+		447BD5250F0C3A6B0017F00C /* MSMinesweeperSetupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSMinesweeperSetupViewController.m; sourceTree = "<group>"; };
+		447BD53B0F0C3DF00017F00C /* MSMinesweeperView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSMinesweeperView.h; sourceTree = "<group>"; };
+		447BD53C0F0C3DF00017F00C /* MSMinesweeperView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSMinesweeperView.m; sourceTree = "<group>"; };
+		448A6ECC19D0BB3700BFBDEF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		448A6F0519D0BBC400BFBDEF /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		448A6F0919D0C0E500BFBDEF /* MainMenu.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainMenu.storyboard; sourceTree = "<group>"; };
+		448FE0901A0AB8D000F53672 /* MSScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSScrollView.h; sourceTree = "<group>"; };
+		448FE0911A0AB8D000F53672 /* MSScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSScrollView.m; sourceTree = "<group>"; };
+		448FE0931A0AB96600F53672 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4497ECDF19D0C8590044C358 /* MSMinesweeperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSMinesweeperViewController.h; sourceTree = "<group>"; };
+		4497ECE019D0C8590044C358 /* MSMinesweeperViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSMinesweeperViewController.m; sourceTree = "<group>"; };
+		449D12060ECC67E4004D44A5 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		449D12070ECC67E4004D44A5 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
+		449D122C0ECC697B004D44A5 /* GameSelectionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameSelectionController.m; path = ../GameSelectionController.m; sourceTree = "<group>"; };
+		449D122D0ECC697B004D44A5 /* GameSelectionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameSelectionController.h; path = ../GameSelectionController.h; sourceTree = "<group>"; };
+		44A1E2980E029C1400144505 /* AbstractBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractBlock.h; sourceTree = "<group>"; };
+		44A1E2990E029C1400144505 /* AbstractBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractBlock.m; sourceTree = "<group>"; };
+		44A1E29A0E029C1400144505 /* Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Board.h; sourceTree = "<group>"; };
+		44A1E29B0E029C1400144505 /* Board.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Board.m; sourceTree = "<group>"; };
+		44A1E29C0E029C1400144505 /* BoardCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoardCell.h; sourceTree = "<group>"; };
+		44A1E29D0E029C1400144505 /* BoardCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoardCell.m; sourceTree = "<group>"; };
+		44A1E29E0E029C1400144505 /* CellCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellCollection.h; sourceTree = "<group>"; };
+		44A1E29F0E029C1500144505 /* CellCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellCollection.m; sourceTree = "<group>"; };
+		44A1E2A00E029C1500144505 /* CellRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellRow.h; sourceTree = "<group>"; };
+		44A1E2A10E029C1500144505 /* CellRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellRow.m; sourceTree = "<group>"; };
+		44A1E2A20E029C1500144505 /* IBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBlock.h; sourceTree = "<group>"; };
+		44A1E2A30E029C1500144505 /* IBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBlock.m; sourceTree = "<group>"; };
+		44A1E2A40E029C1500144505 /* LBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBlock.h; sourceTree = "<group>"; };
+		44A1E2A50E029C1500144505 /* LBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBlock.m; sourceTree = "<group>"; };
+		44A1E2A60E029C1500144505 /* OBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBlock.h; sourceTree = "<group>"; };
+		44A1E2A70E029C1500144505 /* OBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OBlock.m; sourceTree = "<group>"; };
+		44A1E2A80E029C1500144505 /* ReverseLBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReverseLBlock.h; sourceTree = "<group>"; };
+		44A1E2A90E029C1500144505 /* ReverseLBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReverseLBlock.m; sourceTree = "<group>"; };
+		44A1E2AA0E029C1500144505 /* ReverseZBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReverseZBlock.h; sourceTree = "<group>"; };
+		44A1E2AB0E029C1500144505 /* ReverseZBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReverseZBlock.m; sourceTree = "<group>"; };
+		44A1E2AC0E029C1500144505 /* TBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBlock.h; sourceTree = "<group>"; };
+		44A1E2AD0E029C1500144505 /* TBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBlock.m; sourceTree = "<group>"; };
+		44A1E2B00E029C1500144505 /* ZBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBlock.h; sourceTree = "<group>"; };
+		44A1E2B10E029C1500144505 /* ZBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBlock.m; sourceTree = "<group>"; };
+		44A25C8F0F09593900DFAC7E /* FallingBlocksMenuItem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FallingBlocksMenuItem.png; sourceTree = "<group>"; };
+		44AFDAFE0F0D3B3C00E63C50 /* MinesweeperMenuItem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MinesweeperMenuItem.png; sourceTree = "<group>"; };
+		44DCFBBC0F092A5000043AB8 /* GameMenuView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GameMenuView.xib; sourceTree = "<group>"; };
+		44DCFC0B0F092F9100043AB8 /* GameSelectionView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GameSelectionView.xib; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				448FE0941A0AB96600F53672 /* QuartzCore.framework in Frameworks */,
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				44030C2C0DFF40D2005099CA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				448A6F0919D0C0E500BFBDEF /* MainMenu.storyboard */,
+				448A6F0519D0BBC400BFBDEF /* LaunchScreen.xib */,
+				449D12060ECC67E4004D44A5 /* AppDelegate.h */,
+				449D12070ECC67E4004D44A5 /* AppDelegate.m */,
+				449D122D0ECC697B004D44A5 /* GameSelectionController.h */,
+				449D122C0ECC697B004D44A5 /* GameSelectionController.m */,
+				446DBBBA0F0A71AA001DB239 /* AppTabBarController.h */,
+				446DBBBB0F0A71AA001DB239 /* AppTabBarController.m */,
+				447BD09E0F0BD50B0017F00C /* Minesweeper */,
+				4470E7600F097417006039B7 /* TicTacToe */,
+				449D11E80ECC6681004D44A5 /* Tetris */,
+				440EEEF01A06D8030059D952 /* UIScrollView+Helper.h */,
+				440EEEF11A06D8030059D952 /* UIScrollView+Helper.m */,
+				440EEEF31A06E9170059D952 /* UIView+Helper.h */,
+				440EEEF41A06E9170059D952 /* UIView+Helper.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* PuzzlePack.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				440AB6D51B3DB601004A4791 /* MinesweeperLib.xcodeproj */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Touchtris_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				448A6ECC19D0BB3700BFBDEF /* Default-568h@2x.png */,
+				44AFDAFE0F0D3B3C00E63C50 /* MinesweeperMenuItem.png */,
+				4470E9700F098D8A006039B7 /* Not.png */,
+				4470E9710F098D8A006039B7 /* Cross.png */,
+				4470E7890F097641006039B7 /* TicTacToeMenuItem.png */,
+				44A25C8F0F09593900DFAC7E /* FallingBlocksMenuItem.png */,
+				4410C1A70E463397008608AF /* IBlock.png */,
+				4410C1A80E463397008608AF /* LBlock.png */,
+				4410C1A90E463397008608AF /* OBlock.png */,
+				4410C1AA0E463397008608AF /* ReverseLBlock.png */,
+				4410C1AB0E463397008608AF /* ReverseZBlock.png */,
+				4410C1AC0E463397008608AF /* TBlock.png */,
+				4410C1AD0E463397008608AF /* ZBlock.png */,
+				446F43F50E058D2100F62638 /* TouchtrisIcon.png */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				28AD733E0D9D9553002E5188 /* FallingBlocks.xib */,
+				44DCFBBC0F092A5000043AB8 /* GameMenuView.xib */,
+				44DCFC0B0F092F9100043AB8 /* GameSelectionView.xib */,
+				4470E7A40F0977FF006039B7 /* TicTacToeView.xib */,
+				446DBC400F0A8893001DB239 /* About.xib */,
+				4443ECBD19DC91B1007F79BB /* FallingBlocksMainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				448FE0931A0AB96600F53672 /* QuartzCore.framework */,
+				44030C2B0DFF40D2005099CA /* CoreGraphics.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		440AB6D61B3DB601004A4791 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				440AB6DB1B3DB602004A4791 /* libMinesweeperLib.a */,
+				440AB6DD1B3DB602004A4791 /* MinesweeperLibTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4470E7600F097417006039B7 /* TicTacToe */ = {
+			isa = PBXGroup;
+			children = (
+				4470E76D0F0974DB006039B7 /* TicTacToe.h */,
+				4470E76E0F0974DB006039B7 /* TicTacToe.m */,
+				4470E79F0F0977A8006039B7 /* TicTacToeSetupViewController.h */,
+				4470E7A00F0977A8006039B7 /* TicTacToeSetupViewController.m */,
+				4470E7B90F097A36006039B7 /* TicTacToeView.h */,
+				4470E7BA0F097A36006039B7 /* TicTacToeView.m */,
+			);
+			name = TicTacToe;
+			sourceTree = "<group>";
+		};
+		447BD09E0F0BD50B0017F00C /* Minesweeper */ = {
+			isa = PBXGroup;
+			children = (
+				447BD50F0F0C39BE0017F00C /* MSBoard.h */,
+				447BD5110F0C39BE0017F00C /* MSBoard.m */,
+				447BD5120F0C39BE0017F00C /* MSCell.h */,
+				447BD5100F0C39BE0017F00C /* MSCell.m */,
+				447BD5240F0C3A6B0017F00C /* MSMinesweeperSetupViewController.h */,
+				447BD5250F0C3A6B0017F00C /* MSMinesweeperSetupViewController.m */,
+				447BD5190F0C3A1B0017F00C /* MinesweeperSetupView.xib */,
+				447BD53B0F0C3DF00017F00C /* MSMinesweeperView.h */,
+				447BD53C0F0C3DF00017F00C /* MSMinesweeperView.m */,
+				448FE0901A0AB8D000F53672 /* MSScrollView.h */,
+				448FE0911A0AB8D000F53672 /* MSScrollView.m */,
+				4497ECDF19D0C8590044C358 /* MSMinesweeperViewController.h */,
+				4497ECE019D0C8590044C358 /* MSMinesweeperViewController.m */,
+				445DAF9F1A02EF950097F035 /* MSInformationViewController.h */,
+				445DAFA01A02EF950097F035 /* MSInformationViewController.m */,
+				445DAFA11A02EF950097F035 /* MSInformationViewController.xib */,
+			);
+			name = Minesweeper;
+			sourceTree = "<group>";
+		};
+		449D11E80ECC6681004D44A5 /* Tetris */ = {
+			isa = PBXGroup;
+			children = (
+				44030BA10DFF3B3D005099CA /* TetrisView.h */,
+				44030BA20DFF3B3D005099CA /* TetrisView.m */,
+				4448035A19DC81310061968A /* TetrisViewController.h */,
+				4448035B19DC81310061968A /* TetrisViewController.m */,
+				1D3623240D0F684500981E51 /* FallingBlocksViewController.h */,
+				1D3623250D0F684500981E51 /* FallingBlocksViewController.m */,
+				44A1E2980E029C1400144505 /* AbstractBlock.h */,
+				44A1E2990E029C1400144505 /* AbstractBlock.m */,
+				44A1E29A0E029C1400144505 /* Board.h */,
+				44A1E29B0E029C1400144505 /* Board.m */,
+				44A1E29C0E029C1400144505 /* BoardCell.h */,
+				44A1E29D0E029C1400144505 /* BoardCell.m */,
+				44A1E29E0E029C1400144505 /* CellCollection.h */,
+				44A1E29F0E029C1500144505 /* CellCollection.m */,
+				44A1E2A00E029C1500144505 /* CellRow.h */,
+				44A1E2A10E029C1500144505 /* CellRow.m */,
+				44A1E2A20E029C1500144505 /* IBlock.h */,
+				44A1E2A30E029C1500144505 /* IBlock.m */,
+				44A1E2A40E029C1500144505 /* LBlock.h */,
+				44A1E2A50E029C1500144505 /* LBlock.m */,
+				44A1E2A60E029C1500144505 /* OBlock.h */,
+				44A1E2A70E029C1500144505 /* OBlock.m */,
+				44A1E2A80E029C1500144505 /* ReverseLBlock.h */,
+				44A1E2A90E029C1500144505 /* ReverseLBlock.m */,
+				44A1E2AA0E029C1500144505 /* ReverseZBlock.h */,
+				44A1E2AB0E029C1500144505 /* ReverseZBlock.m */,
+				44A1E2AC0E029C1500144505 /* TBlock.h */,
+				44A1E2AD0E029C1500144505 /* TBlock.m */,
+				44A1E2B00E029C1500144505 /* ZBlock.h */,
+				44A1E2B10E029C1500144505 /* ZBlock.m */,
+			);
+			name = Tetris;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* PuzzlePack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "PuzzlePack" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PuzzlePack;
+			productName = Touchtris;
+			productReference = 1D6058910D05DD3D006BFB54 /* PuzzlePack.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				TargetAttributes = {
+					1D6058900D05DD3D006BFB54 = {
+						DevelopmentTeam = GV9WK9QPT4;
+					};
+				};
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Touchtris" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 440AB6D61B3DB601004A4791 /* Products */;
+					ProjectRef = 440AB6D51B3DB601004A4791 /* MinesweeperLib.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* PuzzlePack */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		440AB6DB1B3DB602004A4791 /* libMinesweeperLib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libMinesweeperLib.a;
+			remoteRef = 440AB6DA1B3DB602004A4791 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		440AB6DD1B3DB602004A4791 /* MinesweeperLibTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = MinesweeperLibTests.xctest;
+			remoteRef = 440AB6DC1B3DB602004A4791 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* FallingBlocks.xib in Resources */,
+				446F43F60E058D2100F62638 /* TouchtrisIcon.png in Resources */,
+				4410C1AE0E463397008608AF /* IBlock.png in Resources */,
+				4410C1AF0E463397008608AF /* LBlock.png in Resources */,
+				448A6ECD19D0BB3700BFBDEF /* Default-568h@2x.png in Resources */,
+				4410C1B00E463397008608AF /* OBlock.png in Resources */,
+				4410C1B10E463397008608AF /* ReverseLBlock.png in Resources */,
+				4410C1B20E463397008608AF /* ReverseZBlock.png in Resources */,
+				4443ECBE19DC91B1007F79BB /* FallingBlocksMainMenu.xib in Resources */,
+				4410C1B30E463397008608AF /* TBlock.png in Resources */,
+				4410C1B40E463397008608AF /* ZBlock.png in Resources */,
+				44DCFBBD0F092A5000043AB8 /* GameMenuView.xib in Resources */,
+				44DCFC0C0F092F9100043AB8 /* GameSelectionView.xib in Resources */,
+				445DAFA31A02EF950097F035 /* MSInformationViewController.xib in Resources */,
+				44A25C900F09593900DFAC7E /* FallingBlocksMenuItem.png in Resources */,
+				448A6F0619D0BBC400BFBDEF /* LaunchScreen.xib in Resources */,
+				4470E78A0F097641006039B7 /* TicTacToeMenuItem.png in Resources */,
+				4470E7A50F0977FF006039B7 /* TicTacToeView.xib in Resources */,
+				4470E9720F098D8A006039B7 /* Not.png in Resources */,
+				4470E9730F098D8A006039B7 /* Cross.png in Resources */,
+				448A6F0A19D0C0E500BFBDEF /* MainMenu.storyboard in Resources */,
+				446DBC410F0A8893001DB239 /* About.xib in Resources */,
+				447BD51A0F0C3A1B0017F00C /* MinesweeperSetupView.xib in Resources */,
+				44AFDAFF0F0D3B3C00E63C50 /* MinesweeperMenuItem.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* FallingBlocksViewController.m in Sources */,
+				44030BA30DFF3B3D005099CA /* TetrisView.m in Sources */,
+				44A1E2B20E029C1500144505 /* AbstractBlock.m in Sources */,
+				44A1E2B30E029C1500144505 /* Board.m in Sources */,
+				445DAFA21A02EF950097F035 /* MSInformationViewController.m in Sources */,
+				440EEEF21A06D8030059D952 /* UIScrollView+Helper.m in Sources */,
+				44A1E2B40E029C1500144505 /* BoardCell.m in Sources */,
+				44A1E2B50E029C1500144505 /* CellCollection.m in Sources */,
+				44A1E2B60E029C1500144505 /* CellRow.m in Sources */,
+				44A1E2B70E029C1500144505 /* IBlock.m in Sources */,
+				44A1E2B80E029C1500144505 /* LBlock.m in Sources */,
+				44A1E2B90E029C1500144505 /* OBlock.m in Sources */,
+				4448035C19DC81310061968A /* TetrisViewController.m in Sources */,
+				440EEEF51A06E9170059D952 /* UIView+Helper.m in Sources */,
+				44A1E2BA0E029C1500144505 /* ReverseLBlock.m in Sources */,
+				44A1E2BB0E029C1500144505 /* ReverseZBlock.m in Sources */,
+				4497ECE119D0C8590044C358 /* MSMinesweeperViewController.m in Sources */,
+				44A1E2BC0E029C1500144505 /* TBlock.m in Sources */,
+				44A1E2BE0E029C1500144505 /* ZBlock.m in Sources */,
+				449D12080ECC67E4004D44A5 /* AppDelegate.m in Sources */,
+				449D122E0ECC697B004D44A5 /* GameSelectionController.m in Sources */,
+				4470E76F0F0974DB006039B7 /* TicTacToe.m in Sources */,
+				4470E7A10F0977A8006039B7 /* TicTacToeSetupViewController.m in Sources */,
+				4470E7BB0F097A36006039B7 /* TicTacToeView.m in Sources */,
+				446DBBBC0F0A71AA001DB239 /* AppTabBarController.m in Sources */,
+				447BD5130F0C39BE0017F00C /* MSCell.m in Sources */,
+				447BD5140F0C39BE0017F00C /* MSBoard.m in Sources */,
+				447BD5260F0C3A6B0017F00C /* MSMinesweeperSetupViewController.m in Sources */,
+				447BD53D0F0C3DF00017F00C /* MSMinesweeperView.m in Sources */,
+				448FE0921A0AB8D000F53672 /* MSScrollView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_RESOURCE_RULES_PATH = "";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Touchtris_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cmsoftware.touchtris;
+				PRODUCT_NAME = PuzzlePack;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Touchtris_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cmsoftware.touchtris;
+				PRODUCT_NAME = Touchtris;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Craig Miller (M58U5KEES5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "a44debc9-e5ce-4409-a752-c4080df95d19";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Craig Miller (M58U5KEES5)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "a44debc9-e5ce-4409-a752-c4080df95d19";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "PuzzlePack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Touchtris" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
